@@ -1,5 +1,7 @@
-const { greeting } = require ('./greeting');
+const { newSessionHandler } = require ('./newSessionHandler');
+const { askForCouponHandler } = require ('./askForCouponHandler');
 
 module.exports = {
-  greeting,
+  newSessionHandler,
+  askForCouponHandler
 };
