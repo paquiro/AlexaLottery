@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test:phrases": "node ./tests/phrases/check_amazon_token.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,8 +19,14 @@
   "homepage": "https://github.com/Paco1994/AlexaLottery#readme",
   "dependencies": {
     "alexa-sdk": "^1.0.25",
-    "axios": "^0.18.0",
-    "dotenv": "^6.0.0"
+    "amazon-date-parser": "^0.2.0",
+    "async": "^2.6.1",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.0.0",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21",
+    "qs": "^6.5.2",
+    "request": "^2.88.0"
   },
   "devDependencies": {}
 }
