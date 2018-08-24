@@ -1,6 +1,18 @@
 {
-  "stop": "De acuerdo. Hasta la próxima.",
-  "help": "¿Necesitas ayuda? Puedes utilizar el comando Lotería.",
-  "help_reprompt": "Prueba a decir: Lotería.",
-  "greeting": "Bienvenido a Alexa Lottery."
+  "stop": {
+    "speak": "De acuerdo. Hasta la próxima."
+  },
+  "help": {
+    "speak": "¿Necesitas ayuda? Puedes utilizar el comando Lotería."
+  },
+  "help_reprompt": {
+    "speak": "Prueba a decir: Lotería."
+  },
+  "unhandled": {
+    "speak": "¿Qué? No te he entendido."
+  },
+  "greeting": {
+    "speak": "Bienvenido a Alexa Lottery. ¿Qué necesita?",
+    "listen": "No te he entendido. Quizá quieras consultar la lotería"
+  }
 }
