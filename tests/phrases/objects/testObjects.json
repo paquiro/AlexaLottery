@@ -1,0 +1,22 @@
+[
+  {
+    "utterance": "abre once",
+    "description": "Open Skill `Abre once`",
+    "functionName": "openOnce"
+  },
+  {
+    "utterance": "salir",
+    "description": "Close Skill `Salir`",
+    "functionName": "close"
+  },
+  {
+    "utterance": "abre once",
+    "description": "Open Skill `Abre once`",
+    "functionName": "openOnce"
+  },
+  {
+    "utterance": "dime el sorteo diario del ocho de agosto con el número seis cinco cuatro ocho tres, serie uno cuatro",
+    "description": "Full Diary Lottery.",
+    "functionName": "fullDiaryLottery"
+  }
+]
